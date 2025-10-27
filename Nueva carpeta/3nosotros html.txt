@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nosotros | Novedades Ramses Co. U.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Novedades Ramses Co. U.</div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="tienda.html">Tienda</a>
+      <a href="nosotros.html" class="active">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero hero-nosotros fade-in">
+    <h1>Nuestra Historia</h1>
+    <p>Inspirada en la majestuosidad del antiguo Egipto y adaptada a la moda urbana contemporánea.</p>
+  </section>
+
+  <section class="historia fade-up">
+    <h2>El Origen</h2>
+    <p>Fundada en 2020, <strong>Novedades Ramses Co. U.</strong> nació con la visión de fusionar el lujo y el simbolismo del antiguo Egipto con la energía moderna de la moda urbana.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Novedades Ramses Co. U.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

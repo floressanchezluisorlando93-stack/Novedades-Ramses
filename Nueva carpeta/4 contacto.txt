@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | Novedades Ramses Co. U.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Novedades Ramses Co. U.</div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="tienda.html">Tienda</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero hero-contacto fade-in">
+    <h1>Contáctanos</h1>
+    <p>¿Tienes dudas o deseas un pedido personalizado? Escríbenos y te responderemos pronto.</p>
+  </section>
+
+  <section class="contacto-section fade-up">
+    <form id="contactForm" class="contacto-form" action="https://formspree.io/f/maypkwqd" method="POST">
+      <h2>Envíanos un mensaje</h2>
+
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Enviar mensaje</button>
+      <p id="form-status" class="form-status"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Novedades Ramses Co. U.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

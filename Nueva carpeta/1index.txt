@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Novedades Ramses Co. U. | Moda Urbana y Elegante</title>
+  <meta name="description" content="Accesorios y moda urbana con esencia egipcia. Descubre Novedades Ramses Co. U.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Novedades Ramses Co. U.</div>
+    <nav>
+      <a href="index.html" class="active">Inicio</a>
+      <a href="tienda.html">Tienda</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero fade-in">
+    <h1>Elegancia Urbana con Esencia Egipcia</h1>
+    <p>Descubre accesorios y moda que resaltan tu poder interior.</p>
+    <a href="tienda.html" class="btn">Explorar Tienda</a>
+  </section>
+
+  <section class="fade-up">
+    <h2>✨ Colección Destacada ✨</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1618354691373-6ec93c39f7aa?auto=format&fit=crop&w=800&q=80" alt="Collar Egipcio Dorado">
+        <h3>Collar Ramsés Dorado</h3>
+        <p>$39.99 USD</p>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1600185365503-29a6ab411b38?auto=format&fit=crop&w=800&q=80" alt="Pulsera Faraónica">
+        <h3>Pulsera Faraónica</h3>
+        <p>$24.99 USD</p>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1570739287768-82e0c7f1a7fd?auto=format&fit=crop&w=800&q=80" alt="Anillo Anubis">
+        <h3>Anillo Anubis</h3>
+        <p>$19.99 USD</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="fade-up">
+    <h2>Sobre Nosotros</h2>
+    <p>En <strong>Novedades Ramses Co. U.</strong> fusionamos la elegancia moderna con el poder simbólico del antiguo Egipto.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Novedades Ramses Co. U. — Estilo Real, Espíritu Urbano.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

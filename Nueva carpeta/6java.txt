@@ -1,0 +1,33 @@
+document.addEventListener("scroll", () => {
+  const elements = document.querySelectorAll(".fade-up, .fade-in");
+  elements.forEach(el => {
+    const position = el.getBoundingClientRect().top;
+    if (position < window.innerHeight - 100) {
+      el.classList.add("visible");
+    }
+  });
+});
+
+document.getElementById("contactForm")?.addEventListener("submit", async function (e) {
+  e.preventDefault();
+  const status = document.getElementById("form-status");
+  const formData = new FormData(this);
+
+  try {
+    const response = await fetch(this.action, {
+      method: this.method,
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      status.textContent = "✅ ¡Mensaje enviado con éxito!";
+      status.style.color = "#d4af37";
+      this.reset();
+    } else {
+      status.textContent = "⚠️ Ocurrió un error. Intenta de nuevo.";
+    }
+  } catch (error) {
+    status.textContent = "❌ No se pudo conectar. Revisa tu conexión.";
+  }
+});
